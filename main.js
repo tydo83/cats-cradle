@@ -35,16 +35,42 @@
 // Challenge3('Hello.');
 // Challenge3('Oh hi.');
 
-//4
-console.log('Challenge4');
-function Challenge4(str) {
+// //4
+// console.log('Challenge4');
+// function Challenge4(str) {
+//     let i = 0;
+//     while(i < str.length) {
+//         if(str[i] == 'a' || str[i] == 'e' || str[i] == 'i'
+//            || str[i] == 'o' || str[i] == 'u') {
+//         console.log(str[i]);
+//            }
+//         i++
+//     }
+// }
+// Challenge4('Regular expressions are for term 2.');
+
+//5 
+// console.log('Challenge5');
+// function Challenge5(str, num) {
+//     let i = num;
+//     while(i <= str.length - 1) {
+//         console.log(str[i]);
+//         i++;
+//     }
+// }
+// Challenge5('slaughter', 1);
+// Challenge5("I don't love you!", 7);
+
+//6
+console.log('Challenge6');
+function Challenge6(str) {
     let i = 0;
-    while(i < str.length) {
-        if(str[i] == 'a' || str[i] == 'e' || str[i] == 'i'
-           || str[i] == 'o' || str[i] == 'u') {
-        console.log(str[i]);
-           }
-        i++
+    while(i <= str.length -1) {
+        if(str[i] == 'u') {
+            console.log(i);
+        }
+    i++;
     }
 }
-Challenge4('Regular expressions are for term 2.');
+Challenge6('You picked the wrong house, bud.');
+
