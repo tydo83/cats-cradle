@@ -21,3 +21,68 @@ function challenge2(str){
     }
 }
 challenge2('I am the alfalfa and the omelette.')
+// // 2. Write a function that prints out every third character. HINT: you'll need to play with how our counter/index variable changes with each loop.
+// //Now call it with "I am the alfalfa and the omelette." An "e" should be the last thing printed, with no undefined values showing up.
+// console.log('Challenge2');
+// function challenge2(str){
+//     let i = 2;
+//     while(i <= str.length){
+//         console.log(str[i])
+//         i += 3;
+//     }
+// }
+// challenge2('I am the alfalfa and the omelette.')
+
+// //3. 
+// console.log('Challenge3');
+// function Challenge3(str) {
+//     let i = str.length - 1;    
+//     while(i >= 0 ) {
+//         console.log(str[i]);
+//         i--;
+//     }
+// }
+
+// Challenge3('Hello.');
+// Challenge3('Oh hi.');
+
+// //4
+// console.log('Challenge4');
+// function Challenge4(str) {
+//     let i = 0;
+//     while(i < str.length) {
+//         if(str[i] == 'a' || str[i] == 'e' || str[i] == 'i'
+//            || str[i] == 'o' || str[i] == 'u') {
+//         console.log(str[i]);
+//            }
+//         i++
+//     }
+// }
+// Challenge4('Regular expressions are for term 2.');
+
+//5 
+// console.log('Challenge5');
+// function Challenge5(str, num) {
+//     let i = num;
+//     while(i <= str.length - 1) {
+//         console.log(str[i]);
+//         i++;
+//     }
+// }
+// Challenge5('slaughter', 1);
+// Challenge5("I don't love you!", 7);
+
+//6
+console.log('Challenge6');
+function Challenge6(str) {
+    let i = 0;
+    while(i <= str.length -1) {
+        if(str[i] == 'u') {
+            console.log(i);
+        }
+    i++;
+    }
+}
+Challenge6('You picked the wrong house, bud.');
+
+// comment
