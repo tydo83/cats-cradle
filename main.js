@@ -20,7 +20,7 @@ function challenge2(str){
         i += 3;
     }
 }
-challenge2('I am the alfalfa and the omelette.')
+// challenge2('I am the alfalfa and the omelette.')
 // // 2. Write a function that prints out every third character. HINT: you'll need to play with how our counter/index variable changes with each loop.
 // //Now call it with "I am the alfalfa and the omelette." An "e" should be the last thing printed, with no undefined values showing up.
 // console.log('Challenge2');
@@ -73,7 +73,7 @@ challenge2('I am the alfalfa and the omelette.')
 // Challenge5("I don't love you!", 7);
 
 //6
-console.log('Challenge6');
+// console.log('Challenge6');
 function Challenge6(str) {
     let i = 0;
     while(i <= str.length -1) {
@@ -83,6 +83,20 @@ function Challenge6(str) {
     i++;
     }
 }
-Challenge6('You picked the wrong house, bud.');
+// Challenge6('You picked the wrong house, bud.');
 
-// comment
+console.log('Challenge7');
+function Challenge7(str) {
+    let i = 0;
+    // let type = [];
+    while(i < str.length) {
+        if(str[i] == 'a' || str[i] == 'e' || str[i] == 'i'
+           || str[i] == 'o' || str[i] == 'u') {
+            //    type = i;
+        console.log(str[i]);
+           }
+        i++
+    }
+}
+Challenge7('Regular expressions are for term 2.');
+Challenge7('Hello');
