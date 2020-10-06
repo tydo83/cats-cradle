@@ -104,6 +104,7 @@ function Challenge8(str) {
     }
 }
 Challenge8('You picked the wrong house, bud.');
+Challenge8('This is unheard of!');
 
 //9
 console.log('Challenge9');
